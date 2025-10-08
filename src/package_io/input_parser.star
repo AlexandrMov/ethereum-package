@@ -1310,6 +1310,7 @@ def default_participant():
         "el_extra_env_vars": {},
         "el_extra_labels": {},
         "el_extra_params": [],
+        "el_init_extra_params": [],
         "el_extra_mounts": {},
         "el_tolerations": [],
         "el_volume_size": 0,
