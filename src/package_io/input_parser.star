@@ -331,6 +331,7 @@ def input_parser(plan, input_args):
                 el_log_level=participant["el_log_level"],
                 el_volume_size=participant["el_volume_size"],
                 el_extra_params=participant["el_extra_params"],
+                el_init_extra_params=participant["el_init_extra_params"],
                 el_extra_mounts=participant["el_extra_mounts"],
                 el_extra_env_vars=participant["el_extra_env_vars"],
                 el_extra_labels=participant["el_extra_labels"],
