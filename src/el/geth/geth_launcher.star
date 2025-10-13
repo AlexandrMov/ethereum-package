@@ -111,8 +111,8 @@ def get_config(
 
     init_datadir_cmd_str = "geth init --datadir={0} {1} {2}".format(
         EXECUTION_DATA_DIRPATH_ON_CLIENT_CONTAINER,
-        constants.GENESIS_CONFIG_MOUNT_PATH_ON_CONTAINER + "/genesis.json",
         " ".join(participant.el_init_extra_params),
+        constants.GENESIS_CONFIG_MOUNT_PATH_ON_CONTAINER + "/genesis.json",
     )
 
     public_ports = {}
