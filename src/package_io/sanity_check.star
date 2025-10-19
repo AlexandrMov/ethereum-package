@@ -202,6 +202,7 @@ SUBCATEGORY_PARAMS = {
         "genesis_delay",
         "genesis_gaslimit",
         "max_per_epoch_activation_churn_limit",
+        "max_per_epoch_activation_exit_churn_limit",
         "churn_limit_quotient",
         "ejection_balance",
         "eth1_follow_distance",

@@ -157,6 +157,7 @@ def new_env_file_for_el_cl_genesis_data(
         "GenesisDelay": 0,  # This delay is already precaculated in the final_genesis_timestamp
         "GenesisGasLimit": network_params.genesis_gaslimit,
         "MaxPerEpochActivationChurnLimit": network_params.max_per_epoch_activation_churn_limit,
+        "MaxPerEpochActivationExitChurnLimit": network_params.max_per_epoch_activation_exit_churn_limit,
         "ChurnLimitQuotient": network_params.churn_limit_quotient,
         "EjectionBalance": network_params.ejection_balance,
         "Eth1FollowDistance": network_params.eth1_follow_distance,

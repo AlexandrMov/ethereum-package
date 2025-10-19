@@ -84,6 +84,7 @@ network_params:
   genesis_delay: 20
   genesis_gaslimit: 60000000
   max_per_epoch_activation_churn_limit: 8
+  max_per_epoch_activation_exit_churn_limit: 64000000000
   churn_limit_quotient: 65536
   ejection_balance: 16000000000
   eth1_follow_distance: 2048
@@ -222,7 +223,9 @@ keymanager_enabled: false
 checkpoint_sync_enabled: false
 checkpoint_sync_url: ""
 ethereum_genesis_generator_params:
-  image: ethpandaops/ethereum-genesis-generator:5.0.8
+  image: container-registry.valset-02.testnet.fi/lido/genesis-generator:latest
+  username: "admin"
+  password: "changeme"
 port_publisher:
   nat_exit_ip: KURTOSIS_IP_ADDR_PLACEHOLDER
   el:
